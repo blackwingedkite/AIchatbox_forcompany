@@ -21,7 +21,7 @@ import requests
 
 app = Flask(__name__, '/static')
 # _ = load_dotenv(find_dotenv())
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'YOUR API HERE'
 llm = ChatOpenAI(temperature=0.7)
 
 file = 'static/data.csv'
