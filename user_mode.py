@@ -15,7 +15,7 @@ import requests
 
 app = Flask(__name__, '/static')
 _ = load_dotenv(find_dotenv())
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'YOUR API HERE'
 
 embeddings = OpenAIEmbeddings()
 db = Chroma(persist_directory="static/", embedding_function=embeddings)
